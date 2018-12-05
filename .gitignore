@@ -14,7 +14,7 @@
 *.idea/
 *.ipr
 *.iws
-out/
+*out/
 .idea_modules/
 
 # Mobile Tools for Java (J2ME)
