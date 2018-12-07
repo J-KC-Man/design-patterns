@@ -1,4 +1,4 @@
-package com.jman.simplefactory.product;
+package com.jman.factory.product;
 
 public class ChicagoStyleCheesePizza extends Pizza {
     public ChicagoStyleCheesePizza() {

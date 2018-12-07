@@ -1,11 +1,12 @@
-package com.jman.simplefactory.product;
+package com.jman.factory.product;
 
-public class NYStylePepperoniPizza extends Pizza {
-    public NYStylePepperoniPizza() {
+public class NYStyleVeggiePizza extends Pizza {
+    public NYStyleVeggiePizza() {
         name = "NY Style Sauce and Cheese Pizza";
         dough = "Thin Crust Dough";
         sauce = "Marinara Sauce";
 
         toppings.add("Grated Reggiano Cheese");
+        toppings.add("Vegetables");
     }
 }

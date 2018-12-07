@@ -1,6 +1,17 @@
-package com.jman.factory.creator.ingredientFactories;
+package creator.ingredientFactories;
 
-import com.jman.factory.creator.PizzaIngredientFactory;
+
+import creator.ingredients.cheese.Cheese;
+import creator.ingredients.cheese.MozzarellaCheese;
+import creator.ingredients.clams.Clams;
+import creator.ingredients.clams.FrozenClams;
+import creator.ingredients.dough.Dough;
+import creator.ingredients.dough.ThickCrustDough;
+import creator.ingredients.pepperoni.Pepperoni;
+import creator.ingredients.pepperoni.SlicedPepperoni;
+import creator.ingredients.sauce.PlumTomatoSauce;
+import creator.ingredients.sauce.Sauce;
+import creator.ingredients.veggies.*;
 
 public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
 
@@ -16,7 +27,7 @@ public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
 
     @Override
     public Cheese createCheese() {
-        return MozzarellaCheese();
+        return new MozzarellaCheese();
     }
 
     @Override

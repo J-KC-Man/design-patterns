@@ -1,6 +1,7 @@
-package com.jman.simplefactory.creator;
+package com.jman.factory.creator;
 
-import com.jman.simplefactory.product.*;
+
+import com.jman.factory.product.*;
 
 public class NYPizzaStore extends PizzaStore {
     @Override

@@ -1,6 +1,7 @@
-package com.jman.factory.product.concreteProduct;
+package product;
 
-import com.jman.factory.creator.PizzaIngredientFactory;
+
+import creator.ingredientFactories.PizzaIngredientFactory;
 
 public class CheesePizza extends Pizza {
 
