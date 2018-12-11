@@ -54,5 +54,6 @@ public abstract class Pizza {
 
     public String toString() {
         // code to print pizza here
+        return "A " + this.name;
     }
 }
